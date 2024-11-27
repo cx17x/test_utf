@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+# Django
+db.sqlite3
+/media/
+*.log
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# PyCharm specific
+*.iml
+.idea/
+out/
+
+# Ignore static and media files
+/static/
+media/
+
+# Git
+.DS_Store
+*.orig
+*.lock
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Test Coverage
+.coverage
+.tox/
+.pytest_cache/
+
+# Environment and CI
+*.env
+.env.*
+.venv/
+logs/
